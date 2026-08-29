@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Traditional NLP based FAQ Chatbot">
+
+    <title>
+        FAQ Chatbot | CodeAlpha
+    </title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+    <main class="chat-container">
+
+
+        <!-- ==============================
+             Header
+        =============================== -->
+
+        <header class="chat-header">
+
+            <div class="bot-icon">
+                🤖
+            </div>
+
+            <div>
+
+                <h1>
+                    FAQ Chatbot
+                </h1>
+
+                <p>
+                    Ask a question and find the most relevant answer
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==============================
+             Chat Area
+        =============================== -->
+
+        <section id="chatArea" class="chat-area">
+
+
+            <!-- Initial Bot Message -->
+
+            <div class="message bot-message">
+
+                <div class="message-icon">
+                    🤖
+                </div>
+
+                <div class="message-content">
+
+                    <p>
+                        Hello! 👋
+                    </p>
+
+                    <p>
+                        I can answer frequently asked questions.
+                        Try asking me something below.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ==============================
+             Input Area
+        =============================== -->
+
+        <section class="input-area">
+
+
+            <textarea id="questionInput" placeholder="Type your question here..." rows="2"></textarea>
+
+
+            <button id="sendButton" type="button">
+
+                Send
+
+            </button>
+
+
+        </section>
+
+
+        <!-- ==============================
+             Example Questions
+        =============================== -->
+
+        <section class="examples">
+
+            <p>
+                Try an example:
+            </p>
+
+
+            <button class="example-button" type="button">
+                When do you open?
+            </button>
+
+
+            <button class="example-button" type="button">
+                I forgot my password
+            </button>
+
+
+            <button class="example-button" type="button">
+                How can I contact support?
+            </button>
+
+
+            <button class="example-button" type="button">
+                How do I register?
+            </button>
+
+
+        </section>
+
+
+        <!-- ==============================
+             Footer
+        =============================== -->
+
+        <footer>
+
+            <p>
+                CodeAlpha Internship — FAQ Chatbot
+            </p>
+
+            <p>
+                Traditional NLP • TF-IDF • Cosine Similarity
+            </p>
+
+        </footer>
+
+
+    </main>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</body>
+
+</html>

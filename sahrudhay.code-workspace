@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "codealpha_Chatbot-for-FAQs",
+			"path": "."
+		},
+		{
+			"name": "BigData",
+			"path": "../BigData"
+		},
+		{
+			"name": "CodeAlpha_LanguageTranslationTool",
+			"path": "../CodeAlpha_LanguageTranslationTool"
+		}
+	],
+	"settings": {}
+}
